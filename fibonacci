@@ -1,0 +1,22 @@
+programa
+{
+	
+inteiro fibonacci = 1
+	inteiro fibonacci2 = 1
+	funcao inicio()
+	{
+		enquanto(fibonacci < 500){
+			
+			escreva(fibonacci,"\n")
+			escreva(fibonacci2,"\n")
+			fibonacci = fibonacci + fibonacci2
+			fibonacci2 = fibonacci + fibonacci2
+
+
+
+
+
+			
+		}
+	}
+}
